@@ -1,0 +1,131 @@
+body {
+  background: rgb(213, 187, 213);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: px;
+
+}
+
+/* Mobile phone frame */
+.phone-wrapper {
+  width: 303px;
+  /* iPhone screen width */
+  height: 97vh;
+  /* iPhone screen height */
+  background: #1c0e38;
+  border: 3px solid #111;
+  border-radius: 23px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*Header*/
+.svg {
+  color: white;
+  width: 40px;
+  margin-top: 20px;
+}
+
+/*Hero-section*/
+.intro {
+  color: white;
+  margin-bottom: 859px;
+  text-align: center;
+  flex-direction: column-reverse;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 6px;
+}
+
+.demo {
+  color: rgb(143, 140, 140);
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+label{
+  padding-bottom: 10px;
+  text-align: left;
+  margin-right: 150px;
+}
+.email{
+  margin-right: 170px;
+}
+/*Sign up section*/
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 16px;
+  margin-top: 26px;
+  padding-top: 10px;
+  justify-content: space-between;
+  gap: 1px;
+
+}
+
+input {
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  border: 1px solid #3E2C59;
+  background-color: #2B1F3A;
+  color: #dfdee1;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: none;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+/*Sign up button*/
+.button {
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  border: none;
+  margin-bottom: 100px;
+  background-color: rgb(96, 3, 237);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  color: white;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button:hover {
+  transform: translateY(-6px);
+  opacity: 0.9;
+  box-shadow: 5px 8px 20px rgb(74, 11, 232);
+}
+
+/*Login bridge*/
+.Log-in {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.account {
+  color: #00C2CB;
+  opacity: 0.8;
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.account:hover {
+  color: #fefdff;
+}
