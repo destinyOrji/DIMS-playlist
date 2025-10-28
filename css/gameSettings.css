@@ -1,0 +1,209 @@
+/* Outer background (for desktop view) */
+body {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  margin-top: 25px;
+}
+
+/* Mobile container */
+.phone {
+  width: 300px; /* typical mobile width */
+  height: 700px;
+  background-color: #0E061B;
+  color: #fff;
+  border-radius: 30px;
+  overflow:hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  text-align: center;
+  padding: 10px 20px 20px 10px;
+}
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px 0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+header i {
+  position: absolute;
+  left: 25px;                 /* pushes icon farther left */
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  background-color: gray;
+  border-radius: 70%;
+  padding: 10px;
+}
+
+header h3 {
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Headings */
+.setting-container h4 {
+  text-align: left;
+  margin: 20px 0 10px;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+/* Form sections */
+.section {
+  margin-bottom: 15px;
+}
+
+label {
+  color: #FFFFFF;
+  display: block;
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+select, input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: #3B2B59;
+  color: #EDEADE;
+}
+
+/* Toggle Section */
+.toggle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  background-color: #3B2B59;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.toggle-text span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.toggle-text p {
+  color: #A8A0C9;
+  font-size: 12px;
+  margin: 3px 0 0;
+}
+
+/* Toggle Switch */
+.toggle-switch {
+  width: 40px;
+  height: 20px;
+  background: #777;
+  border-radius: 20px;
+  position: relative;
+}
+
+.toggle-switch::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+}
+
+/* Search Section */
+.search-section {
+  margin-top: 15px;
+}
+
+.search {
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: #3B2B59;
+  padding: 10px 15px 32px 35px;
+  color: white;
+  outline: none;
+  text-align: center;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10,2A8,8 0 0,1 18,10C18,11.85 17.37,13.55 16.3,14.9L21.31,19.9L19.9,21.31L14.9,16.3C13.55,17.37 11.85,18 10,18A8,8 0 0,1 2,10A8,8 0 0,1 10,2M10,4A6,6 0 0,0 4,10A6,6 0 0,0 10,16A6,6 0 0,0 16,10A6,6 0 0,0 10,4Z" /></svg>');
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: 10px center;
+}
+
+/* Friend List */
+.friend {
+  display: flex;
+  align-items: center;
+
+  /* margin-top: 15px; */
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.friend-info {
+  flex: 1;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.name {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.username {
+  font-size: 12px;
+  color: #A8A0C9;
+}
+
+/* Invite Button */
+.invite-btn {
+  background-color: #5C27FE;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.invite-btn.invited {
+  background-color: #44415A;
+  cursor: default;
+}
+
+/* Create Button */
+.create-btn {
+  background-color: #5C27FE;
+  width: 90%;
+  height: 35px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
