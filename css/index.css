@@ -23,7 +23,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
+/* Image */
 .image-frame {
   height: 250px;
   background-color: blue;
@@ -35,7 +35,7 @@ body {
   height: 100%;
   box-shadow: 10px 10px 230px;
 }
-
+/* Intro */
 .playlist {
   color: white;
   font-size: 22px;
@@ -45,7 +45,7 @@ body {
   text-align: center;
   margin-top: 20px;
 }
-
+/* Hero-section */
 .hero-section {
   color: rgb(187, 187, 187);
   font-size: 14.5px;
@@ -121,7 +121,6 @@ body {
   font-size: 18px;
   font-weight: 700;
   margin-left: 88px;
-  margin-top: -0px;
   margin-bottom: 800px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
@@ -133,7 +132,7 @@ body {
   transform: translateY(7px);
   box-shadow: 5px 8px 20px rgb(74, 11, 232);
 }
-
+/* Footer */
 .continue {
   text-decoration: none;
   color: rgb(117, 117, 117);
