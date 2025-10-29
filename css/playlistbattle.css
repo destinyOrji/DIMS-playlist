@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: calibri;
+    color: white;
+}
+.container {
+    width: 320px;
+    background-color: rgb(46, 0, 46);
+    min-height: 150vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+.fdiv{
+    display: flex;
+    align-items: center;
+}
+.back{
+    color: white;
+    padding-left: 7px;
+}
+.back:hover{
+    cursor: pointer;
+}
+.pb{
+    padding-left: 75px;
+    font-size: 19px;
+}
+.Battle{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.pnis{
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.vetid{
+    justify-content: center;
+    display: flex;
+}
+.detiv{
+    background-color: rgb(75, 32, 75);
+    width: 300px;
+    border-radius: 10px;
+}
+.h33{
+    padding-left: 11px;
+}
+.Details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pd{
+    padding-left: 11px;
+    opacity: 0.7;
+}
+.ad{
+    padding-right: 11px;
+    color: white;
+    text-decoration: none;
+}
+.play{
+    padding-left: 11px;
+    padding-top: 10px;
+}
+.seg{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.diclass{
+    display: flex;
+    background-color: rgb(75, 32, 75);
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 10px;
+}
+.prof{
+    height: 30px;
+    width: 30px;
+    border-radius: 45px;
+}
+.divp{
+    padding-left: 10px;
+}
+.pc{
+    padding-left: 11px;
+    opacity: 0.7;
+    padding-bottom: 25px;
+}
+.anch{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.anch:hover{
+    cursor: pointer;
+}
+.start{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(118, 22, 163);
+    color: white;
+    box-shadow: 0px 3px 12px rgb(175, 78, 169);
+    border: none;
+    margin-bottom: 15px;
+}
+.foot{ 
+    background-color: rgb(75, 32, 75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+.icons{
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+    text-align: center;
+}
+.icons:hover{
+    opacity: 1;
+    color: purple;
+}
+.itext{
+    font-size: 10px;
+    padding-top: 0px;
+}

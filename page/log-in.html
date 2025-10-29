@@ -31,39 +31,37 @@
         <p>Welcome back! Let’s get you signed in</p>
       </div>
       <!--Login Section-->
-      <div>
-        <label class="label" for="Email ">Email or username</label>
-        <input type="text" id="Email or username" name="Email or username" placeholder="you@example.com">
-        <label class="label" for="Password">Password</label>
-        <input type="text" id="Password" name="Password" placeholder="***********">
-      </div>
-      <!--Checkbox-->
-      <div class="checkbox-container">
-        <label class="checkbox-label">
-          <input type="checkbox" id="remember" />
-          <span class="checkmark"></span>
-          Remember me
-        </label>
-      </div>
-      <div class="forgot">
-        <a href="/page/forgot-password.html" target="_blank" class="forgot-password">Forgot password?</a>
-      </div>
-
-      <!--Login button-->
-      <div>
-        <button class="button">Log in</button>
+      <div class="login-container">
+    
+        <form action="home.html" method="get">
+          <label for="email">Email or username</label>
+          <input type="text" id="email" name="email" placeholder="you@example.com" required>
+    
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="*" required>
+    
+          <div class="form-options">
+            <label class="remember">
+              <input type="checkbox" id="remember" name="remember">
+              Remember me
+            </label>
+            <a href="forgot-password.html" class="forgot-password">Forgot password?</a>
+          </div>
+    
+          <button type="submit" class="login-btn">Log in</button>
+        </form>
       </div>
 
       <!-- Mobile Bottom Nav -->
       <nav class="mobile-nav" aria-label="Main navigation">
-        <a href="#" class="nav-item active" data-name="home">
+        <a href="../page/home.html" class="nav-item active" data-name="home">
           <!-- Home -->
           <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
             <path d="M3 9.5L12 3l9 6.5V21a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V9.5z" fill="currentColor" />
           </svg>
           <span>Home</span>
         </a>
-        <a href="#" class="nav-item" data-name="search">
+        <a href="../page/playlistGame.html" class="nav-item" data-name="search">
           <!-- Search -->
           <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
             <path
