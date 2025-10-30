@@ -14,7 +14,7 @@ body {
 .phone {
   width: 320px; /* typical mobile width */
   height: 730px;
-  background-color: #0E061B;
+  background:  #0E061B;
   color: #fff;
   border-radius: 30px;
   overflow: hidden;
@@ -26,41 +26,51 @@ body {
 
 /* ===== COVER IMAGE ===== */
 .cover {
+  position: relative;
   width: 100%;
-  height: 180px;
-  background-image: url('../img/cover-img.jpg');
+  height: 35vh; /* adjust to your image height */
+  background-image: url('../img/cover-img.jpg'); /* your background image */
   background-size: cover;
   background-position: center;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
-/* TOP ICONS ON THE COVER */
+/* icon container positioned on top */
 .top-icons {
   position: absolute;
   top: 15px;
-  left: 15px;
-  right: 15px;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 15px;
 }
-.top-icons span {
-  font-size: 18px;
-  cursor: pointer;
-  color: white;
-  background: rgba(0, 0, 0, 0.3);
-  padding: 10px 10px;
-  border-radius: 50%;
-  transition: background 0.3s ease;
-}
-.top-icons span:hover {
-  background: rgba(255, 255, 255, 0.3);
-}
+
+/* group for the right side icons */
 .right-icons {
   display: flex;
-  gap: 10px;
+  gap: 1rem;
 }
+
+/* icons */
+.top-icons a {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.4); /* slight dark circle background */
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.top-icons a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--secondary-color);
+}
+✅ 
+
 
 /* ===== PLAYLIST INFO ===== */
 .info {
@@ -91,11 +101,11 @@ body {
   cursor: pointer;
 }
 .play-btn {
-  background: linear-gradient(90deg, #5C27FE, #B249F8);
+  background: #5a12ec;
   color: white;
 }
 .shuffle-btn {
-  background-color: #3b2a63;
+  background-color:#5a12ec;
   color: white;
 }
 
@@ -171,36 +181,54 @@ body {
 
 /* ===== NAVIGATION BAR ===== */
 .navbar {
-  width: 320px;
-  background-color: #1f1538;
-  border-radius: 3px;
   display: flex;
-  justify-content: space-evenly;
-  padding: 10px 0;
-  color: #bdb9d8;
-  margin-top:43px;
-  
-  
-}
-
-.nav-item {
-  display: flex ;          
-  flex-direction: column ;   
-  align-items: center;      
+  align-items: center;
   justify-content: center;
-  font-size: 13px;
-  cursor: pointer;
-  gap: 4px;                        
+  background-color:  #241a3f;
+  min-height: 15vh;
+  width: 340px;
+  margin-left: -1rem;
+  border-radius: 15px;
+  margin-top: 22px;
+  
 }
 
-.nav-item i {
-  font-size: 18px;
-  display: block;
- 
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  /* margin-left: 90px; */
 }
 
-.nav-item.active {
+.navbar li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px; /* a bit more space between icon and text */
+}
+
+.navbar a {
+  text-decoration: none; /* remove underline */
+  color: white;          /* set all icons and text to white */
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s ease; /* smooth hover effect */
+}
+
+.navbar i {
+  font-size: 15px;
+}
+
+.navbar a:hover {
+  color: #5a12ec; /* optional: hover color */
+}
+
+.navbar a:active {
+  background-color: #2f2347;
+  border-radius: 50%;
+  padding: 0.5rem;
   color: white;
 }
-
-

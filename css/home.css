@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Lexend+Mega:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 :root {
-  --primary-color: #181121;
+  --primary-color: #0E061B;
   --primary-rgb: rgb(24, 17, 33);
   --primary-accent: #2f2347;
   --primary-accent2: #d2c2f1;
@@ -27,6 +27,7 @@ body {
   font-size: 1.4rem;
   font-family: "Lexend Deca", sans-serif;
   height: 150px;
+  background: #222;
 }
 /* section{
   width: 100%;

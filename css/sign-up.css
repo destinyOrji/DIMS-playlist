@@ -1,10 +1,10 @@
 body {
-  background: rgb(213, 187, 213);
+  background: #222;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin-top: px;
+  
 
 }
 
@@ -14,7 +14,7 @@ body {
   /* iPhone screen width */
   height: 97vh;
   /* iPhone screen height */
-  background: #1c0e38;
+  background:  #0E061B;
   border: 3px solid #111;
   border-radius: 23px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
@@ -44,6 +44,7 @@ body {
 
 .demo {
   color: rgb(143, 140, 140);
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
   justify-content: center;
   font-size: 15px;
@@ -97,7 +98,7 @@ input::placeholder {
   width: 180px;
   border: none;
   margin-bottom: 100px;
-  background-color: rgb(96, 3, 237);
+  background-color: #5a12ec;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;

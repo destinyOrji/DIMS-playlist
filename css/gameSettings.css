@@ -14,7 +14,7 @@ body {
 .phone {
   width: 300px; /* typical mobile width */
   height: 700px;
-  background-color: #0E061B;
+  background-color:  #0E061B;
   color: #fff;
   border-radius: 30px;
   overflow:hidden;
@@ -33,17 +33,33 @@ header {
   border-top-right-radius: 25px;
 }
 
-header i {
+/* style the link that wraps the icon */
+header a {
   position: absolute;
-  left: 25px;                 /* pushes icon farther left */
-  font-size: 20px;
+  left: 25px; /* keeps icon to the left */
+  text-decoration: none;
   color: white;
-  cursor: pointer;
-  background-color: gray;
-  border-radius: 70%;
+  /* background-color: gray;
+  border-radius: 50%; */
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
+/* hover/active effect for the button */
+/* header a:hover {
+  background-color: gray;
+  color: white;
+} */
+
+/* style the icon inside */
+header a i {
+  font-size: 18px;
+}
+
+/* center the header title */
 header h3 {
   margin: 0;
   color: white;
@@ -182,7 +198,7 @@ select, input[type="text"] {
 
 /* Invite Button */
 .invite-btn {
-  background-color: #5C27FE;
+  background-color:#5a12ec;
   color: white;
   border: none;
   padding: 6px 12px;
@@ -198,7 +214,7 @@ select, input[type="text"] {
 
 /* Create Button */
 .create-btn {
-  background-color: #5C27FE;
+  background-color: #5a12ec;
   width: 90%;
   height: 35px;
   color: white;

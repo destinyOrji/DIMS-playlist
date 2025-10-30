@@ -11,12 +11,18 @@
 <body>
     <div class="phone">
      <!-- Top Image -->
-    <div class="cover">
+     <div class="cover">
       <div class="top-icons">
-        <span class="back">←</span>
+        <a href="../page/home.html" class="back">
+          <i class="fa-solid fa-arrow-left"></i>
+        </a>
         <div class="right-icons">
-          <span class="like">♡</span>
-          <span class="add">＋</span>
+          <a href="#" class="like">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+          <a href="#" class="add">
+            <i class="fa-solid fa-plus"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -66,35 +72,22 @@
 
   
       <!-- Bottom Navbar -->
-      <div class="navbar">
-        <div class="nav-item">
-          <a href="../page/home.html">
-            <i class="fa-solid fa-house"></i>
-            <span>Home</span>
-          </a>
-           
-        </div>
-        <div class="nav-item">
+      <nav class="navbar">
+        <ul>
+          <a href="../page/home.html"
+            ><li><i class="fa-solid fa-house"></i>Home</li></a
+          >
           <a href="../page/playlistGame.html">
-            <i class="fa fa-search"></i>
-            <span>Browse</span>
+            <li><i class="fa-solid fa-magnifying-glass"></i>Browse</li>
           </a>
-          
-        </div>
-        <div class="nav-item active">
-          <a href="../page/playlistGame.html">
-            <i class="fa fa-music"></i>
-            <span>My Playlists</span>
+          <a href="../page/gameDetails.html">
+            <li><i class="fa-solid fa-music"></i>My Playlist</li>
           </a>
-          
-        </div>
-        <div class="nav-item">
           <a href="../page/profile.html">
-            <i class="fa fa-user"></i>
+            <li><i class="fa-solid fa-user-tie"></i>Profile</li>
           </a>
-          
-          <span>Profile</span>
-        </div>
+        </ul>
+      </nav>
       </div>
 </body>
 </html>

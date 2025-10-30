@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: black;
+    background: #222;
     color: white;
     font-family: calibri;
     display: flex;
@@ -18,7 +18,7 @@ h2{
 }
 .container {
     width: 320px;
-    background-color: rgb(46, 0, 46);
+    background:  #0E061B;
     min-height: 100vh;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 20px;
@@ -36,7 +36,7 @@ h2{
 .settings:hover{
     opacity: o.7;
     cursor: pointer;
-    color: purple;
+    color: rgb(96, 3, 237);
 }
 .boxholder{
     display: flex;
@@ -67,13 +67,13 @@ h2{
     width: 268px;
     height: 40px;
     border-radius: 10px;
-    border: solid 1px rgb(126, 32, 149);
-    background-color: rgb(126, 32, 149);
-    box-shadow: 0 0 20px 4px rgb(126, 32, 149);
+    border: solid 1px  #5a12ec;
+    background-color:  #5a12ec;
+    box-shadow: 0 0 20px 4px #241a3f;
     color: white;
 }
 .foot{ 
-    background-color: rgb(75, 32, 75);
+    background-color:  #241a3f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,10 +90,10 @@ h2{
     text-decoration: none;
     opacity: 0.7;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
 }
 .icons:hover{
     opacity: 1;
-    color: purple;
+    color:#5C27FE;;
 
 }
